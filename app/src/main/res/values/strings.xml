@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">SanlyŽurnal</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="location">
+        <item>Ýerleşýän ýeri</item>
+        <item>Gubadag</item>
+        <item>Daşoguz</item>
+        <item>S.A.Nyýazow</item>
+        <item>Köneürgenç</item>
+        <item>Gurbansoltan eje</item>
+        <item>Ruhubelent</item>
+        <item>Görogly</item>
+        <item>Boldumsaz</item>
+        <item>Akdepe</item>
+        <item>S.Türkmenbaşy</item>
+    </string-array>
+    <string-array name="lessons">
+        <item>Okadýan sapagym</item>
+        <item>Matematika</item>
+        <item>Fizika</item>
+        <item>Himýa</item>
+        <item>Biologiýa</item>
+        <item>Informatika</item>
+        <item>Taryh</item>
+        <item>Çyzuw</item>
+        <item>Zähmedi öwreniş</item>
+        <item>Türkmen dili</item>
+        <item>Iňlis dili</item>
+        <item>Rus dili</item>
+        <item>Geografiýa</item>
+        <item>Bedenterbiýe</item>
+        <item>Edebiýat</item>
+    </string-array>
+
+</resources>

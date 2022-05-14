@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "827861720663",
+    "project_id": "onlinegundelik",
+    "storage_bucket": "onlinegundelik.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827861720663:android:42f584dbc783ee8c590d12",
+        "android_client_info": {
+          "package_name": "com.example.onlinegundelik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827861720663-4129kop5tjglt2ceemiukd1e4k3jir25.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2Vw3LSff1w7tRQcWEV5QCGXKHa7l5Ba4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "827861720663-4129kop5tjglt2ceemiukd1e4k3jir25.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

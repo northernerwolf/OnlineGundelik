@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.MugallymFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/adyfam_reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Adyňyz familýaňyz"
+            android:inputType="textCapWords"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"
+            android:textSize="16sp"/>
+        <EditText
+            android:id="@+id/ulanyjy_reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email salgyňyz"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"
+            android:textSize="16sp"/>
+        <EditText
+            android:id="@+id/parol_reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Gizlin belgi"
+            android:inputType="textPassword"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"
+            android:textSize="16sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/location"
+                android:ems="10"
+                android:inputType="textCapWords"
+                android:layout_marginTop="20dp"
+                android:layout_width="150dp"
+                android:hint="Ýerleşýän ýeri"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/schoolN"
+                android:ems="10"
+                android:inputType="number"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:hint="Mekdep №"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp" />
+
+        </LinearLayout>
+        <EditText
+            android:id="@+id/lesson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Okadýan sapagyňyz"
+            android:inputType="textCapWords"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"
+            android:textSize="16sp"/>
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_login_reg"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="30dp"
+            android:text="Ýazyl"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:background="@drawable/round_button"/>
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hasabyňyz barmy?"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/text"
+                />
+            <TextView
+                android:id="@+id/girin"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Giriň"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/blue"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</FrameLayout>

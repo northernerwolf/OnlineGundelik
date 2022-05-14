@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_home"
+        android:enabled="true"
+        android:icon="@drawable/home_selector"
+        android:title="Öý" />
+
+    <item android:id="@+id/nav_add"
+        android:title="Goşmak"
+        android:enabled="true"
+        android:icon="@drawable/add_selector"/>
+
+    <item android:id="@+id/nav_people"
+        android:title="Akount"
+        android:enabled="true"
+        android:icon="@drawable/akkount_selector"/>
+</menu>
